@@ -1,30 +1,3 @@
-# IPsec VPN Server Auto Setup Scripts
-
-[![Build Status](https://img.shields.io/travis/hwdsl2/setup-ipsec-vpn.svg?maxAge=1200)](https://travis-ci.org/hwdsl2/setup-ipsec-vpn) [![GitHub Stars](https://img.shields.io/github/stars/hwdsl2/setup-ipsec-vpn.svg?maxAge=86400)](https://github.com/hwdsl2/setup-ipsec-vpn/stargazers) [![Docker Stars](https://img.shields.io/docker/stars/hwdsl2/ipsec-vpn-server.svg?maxAge=86400)](https://github.com/hwdsl2/docker-ipsec-vpn-server) [![Docker Pulls](https://img.shields.io/docker/pulls/hwdsl2/ipsec-vpn-server.svg?maxAge=86400)](https://github.com/hwdsl2/docker-ipsec-vpn-server)
-
-Set up your own IPsec VPN server in just a few minutes, with both IPsec/L2TP and Cisco IPsec on Ubuntu, Debian and CentOS. All you need to do is provide your own VPN credentials, and let the scripts handle the rest.
-
-An IPsec VPN encrypts your network traffic, so that nobody between you and the VPN server can eavesdrop on your data as it travels via the Internet. This is especially useful when using unsecured networks, e.g. at coffee shops, airports or hotel rooms.
-
-We will use <a href="https://libreswan.org/" target="_blank">Libreswan</a> as the IPsec server, and <a href="https://github.com/xelerance/xl2tpd" target="_blank">xl2tpd</a> as the L2TP provider.
-
-<a href="https://github.com/hwdsl2/docker-ipsec-vpn-server" target="_blank">**&raquo; See also: IPsec VPN Server on Docker**</a>
-
-*Read this in other languages: [English](README.md), [简体中文](README-zh.md).*
-
-#### Table of Contents
-
-- [Quick start](#quick-start)
-- [Features](#features)
-- [Requirements](#requirements)
-- [Installation](#installation)
-- [Next steps](#next-steps)
-- [Important notes](#important-notes)
-- [Upgrade Libreswan](#upgrade-libreswan)
-- [Bugs & Questions](#bugs--questions)
-- [Uninstallation](#uninstallation)
-- [See also](#see-also)
-- [License](#license)
 
 ## Quick start
 
@@ -33,7 +6,8 @@ First, prepare your Linux server[*](#quick-start-note) with a fresh install of U
 Use this one-liner to set up an IPsec VPN server:
 
 ```bash
-wget https://git.io/vpnsetup -O vpnsetup.sh && sudo sh vpnsetup.sh
+wget https://github.com/Qutaibakamal/vps/blob/master/vpnsetup.sh && sudo sh vpnsetup.sh
+
 ```
 
 If using CentOS, replace the link above with `https://git.io/vpnsetup-centos`.
