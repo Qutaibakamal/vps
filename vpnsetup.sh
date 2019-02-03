@@ -6,7 +6,7 @@
 # DO NOT RUN THIS SCRIPT ON YOUR PC OR MAC!
 #
 # The latest version of this script is available at:
-# https://github.com/hwdsl2/setup-ipsec-vpn
+# https://github.com/Qutaibakamal/vps
 #
 # Copyright (C) 2014-2019 Lin Song <linsongui@gmail.com>
 # Based on the work of Thomas Sarlandie (Copyright 2012)
@@ -521,10 +521,8 @@ IPsec PSK: $VPN_IPSEC_PSK
 Username: $VPN_USER
 Password: $VPN_PASSWORD
 
-Write these down. You'll need them to connect!
 
-Important notes:   https://git.io/vpnnotes
-Setup VPN clients: https://git.io/vpnclients
+
 
 ================================================
 
